@@ -17,3 +17,7 @@ based on how the file was executed. The $ bash date.sh is case sensitative and i
 in bash shell script. Relative vs Absolute Path steps is about going into files and then seeing
 where you currently located at and we used cd to change the directory and go into a different
 area. 
+Working in my backup.sh I would get the information coded but for some reason the information was not entiring accurate for example,
+in the util loop part I could not get the files and directories to pull out the correct numbers. I tried to go back and re look at the code to ensure 
+I typed everything correctly and still could not find my mistake. I did use the vi function and I got the grasp of the function it was confusing at first.
+But after working through the problems repetition came in and I was able to work entirely through vi.
