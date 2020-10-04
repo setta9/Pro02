@@ -1,0 +1,836 @@
+
+laset@Setta MINGW64 ~
+$ vi hello-wolrd1.sh
+
+laset@Setta MINGW64 ~
+$ chmod
+chmod: missing operand
+Try 'chmod --help' for more information.
+
+laset@Setta MINGW64 ~
+$ chmod ./hello-world.sh
+chmod: missing operand after ‘./hello-world.sh’
+Try 'chmod --help' for more information.
+
+laset@Setta MINGW64 ~
+$ chmod +x hello-world1.sh
+chmod: cannot access 'hello-world1.sh': No such file or directory
+
+laset@Setta MINGW64 ~
+$ chmod +x hello-wolrd1.sh
+
+laset@Setta MINGW64 ~
+$ ./hello-wo1rd1.sh
+bash: ./hello-wo1rd1.sh: No such file or directory
+
+laset@Setta MINGW64 ~
+$ ./hello-wolrd1.sh
+Hello World
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ tar -czf /tmp/myhome_directory.tar.gz/home/linuxconfig
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+
+laset@Setta MINGW64 ~
+$ pwd
+/c/Users/laset
+
+laset@Setta MINGW64 ~
+$ tar -czf /tmp/c/Users/laset.tar.gz/home/
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+
+laset@Setta MINGW64 ~
+$ tar -czf /tmp/c/Users/laset.tar.gz
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+
+laset@Setta MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ backup.sh*
+ cd
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ hello-wolrd1.sh*
+ hello-world.sh
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{722bb0cc-ebc2-11e9-9498-00155df63b63}.TM.blf
+ NTUSER.DAT{722bb0cc-ebc2-11e9-9498-00155df63b63}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{722bb0cc-ebc2-11e9-9498-00155df63b63}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+'test run.java'
+'test run.java~'
+ Videos/
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ tar -czf /tmp/c/Users/laset.tar.gz /documents
+tar: Removing leading `/' from member names
+tar: /documents: Cannot stat: No such file or directory
+tar (child): /tmp/c/Users/laset.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+
+laset@Setta MINGW64 ~
+$ ls -1
+'3D Objects'/
+AppData/
+'Application Data'@
+backup.sh*
+cd
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+hello-wolrd1.sh*
+hello-world.sh
+IntelGraphicsProfiles/
+Links/
+'Local Settings'@
+Music/
+'My Documents'@
+NetHood@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{722bb0cc-ebc2-11e9-9498-00155df63b63}.TM.blf
+NTUSER.DAT{722bb0cc-ebc2-11e9-9498-00155df63b63}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{722bb0cc-ebc2-11e9-9498-00155df63b63}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive/
+PrintHood@
+Recent@
+'Saved Games'/
+Searches/
+SendTo@
+'Start Menu'@
+Templates@
+'test run.java'
+'test run.java~'
+Videos/
+
+laset@Setta MINGW64 ~
+$ ls -l /tmp/myhome_directory.tar.gz
+ls: cannot access '/tmp/myhome_directory.tar.gz': No such file or directory
+
+laset@Setta MINGW64 ~
+$ ls -l /tmp/myhome_directory.tar.gz
+ls: cannot access '/tmp/myhome_directory.tar.gz': No such file or directory
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ls -l /tmp/myhome_directory.tar.gz
+ls: cannot access '/tmp/myhome_directory.tar.gz': No such file or directory
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ls -l /tmp/myhome_directory.tar.gz
+ls: cannot access '/tmp/myhome_directory.tar.gz': No such file or directory
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ls -l /tmp/.tar.g
+ls: cannot access '/tmp/.tar.g': No such file or directory
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ls -l /tmp/myhome_directory.tar.gz
+ls: cannot access '/tmp/myhome_directory.tar.gz': No such file or directory
+
+laset@Setta MINGW64 ~
+$ vi welcome.sh
+
+laset@Setta MINGW64 ~
+$ ./welcome.sh
+./welcome.sh: line 3: greeting: command not found
+ back laset! Today is Saturday, which is the best day of the entire week!
+Your Bash shell version is: 4.4.23(1)-release. Enjoy!
+
+laset@Setta MINGW64 ~
+$ a=4
+
+laset@Setta MINGW64 ~
+$ b=8
+
+laset@Setta MINGW64 ~
+$ echo $b
+8
+
+laset@Setta MINGW64 ~
+$ echo [$a + $b]
+[4 + 8]
+
+laset@Setta MINGW64 ~
+$ echo [a + b]
+[a + b]
+
+laset@Setta MINGW64 ~
+$ a = 4
+bash: a: command not found
+
+laset@Setta MINGW64 ~
+$ a=4
+
+laset@Setta MINGW64 ~
+$ b=8
+
+laset@Setta MINGW64 ~
+$ echo a
+a
+
+laset@Setta MINGW64 ~
+$ a=4
+
+laset@Setta MINGW64 ~
+$ b=8
+
+laset@Setta MINGW64 ~
+$ echo $a
+4
+
+laset@Setta MINGW64 ~
+$ echo $b
+8
+
+laset@Setta MINGW64 ~
+$ echo $[$a + $b]
+12
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ backup.sh
+bash: backup.sh: command not found
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ backup.sh
+bash: backup.sh: command not found
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ backup.sh
+bash: backup.sh: command not found
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+tar: Removing leading `/' from member names
+tar: /home/laset: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+Backup of /home/laset completed! Details about the output backup file:
+/tmp/laset_home_2020-10-03_150332.tar.gz
+
+laset@Setta MINGW64 ~
+$ ls -1 foobar
+ls: cannot access 'foobar': No such file or directory
+
+laset@Setta MINGW64 ~
+$ touch foobar
+
+laset@Setta MINGW64 ~
+$ ls -l foobar
+-rw-r--r-- 1 laset 197609 0 Oct  3 15:22 foobar
+
+laset@Setta MINGW64 ~
+$ ls foobar barfoo
+ls: cannot access 'barfoo': No such file or directory
+foobar
+
+laset@Setta MINGW64 ~
+$ ls foobar barfoo > stdout.txt
+ls: cannot access 'barfoo': No such file or directory
+
+laset@Setta MINGW64 ~
+$ ls foobar barfoo 2> stderr.txt
+foobar
+
+laset@Setta MINGW64 ~
+$ cat stdout.txt
+foobar
+
+laset@Setta MINGW64 ~
+$ cat stderr.txt
+ls: cannot access 'barfoo': No such file or directory
+
+laset@Setta MINGW64 ~
+$ cat stdoutandstderr.txt
+cat: stdoutandstderr.txt: No such file or directory
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ cat > file1.txt
+I am using keyboard to input text.
+Cat command reads my keyboard input, converts it to stdout which is redirected to file1.txt
+That is, until I press CTRL+D
+
+
+laset@Setta MINGW64 ~
+$ cat < file1.txt
+I am using keyboard to input text.
+Cat command reads my keyboard input, converts it to stdout which is redirected to file1.txt
+That is, until I press CTRL+D
+
+
+laset@Setta MINGW64 ~
+$ vi function.sh
+
+laset@Setta MINGW64 ~
+$ chmod +x function.sh
+
+laset@Setta MINGW64 ~
+$ ./function.sh
+User Name:  laset
+Home Directory: /c/Users/laset
+
+laset@Setta MINGW64 ~
+$ vi function.sh
+
+laset@Setta MINGW64 ~
+$ ./function.sh
+User Name:  laset
+Home Directory: /c/Users/laset
+User Name:  laset
+Home Directory: /c/Users/laset
+
+laset@Setta MINGW64 ~
+$ backup.sh
+bash: backup.sh: command not found
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+Files to be included:find: ‘/home/laset’: No such file or directory
+0
+Directories to be included:find: ‘/home/laset’: No such file or directory
+0
+Backup of /home/laset completed!
+Details about the output backup file:
+/tmp/laset_home_2020-10-03_163102.tar.gz
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+Files to be included:find: ‘/home/laset’: No such file or directory
+0
+Directories to be included:find: ‘/home/laset’: No such file or directory
+0
+Backup of /home/laset completed!
+Details about the output backup file:
+-rw-r--r-- 1 laset 197609 45 Oct  3 16:41 /tmp/laset_home_2020-10-03_164157.tar.gz
+
+laset@Setta MINGW64 ~
+$ a=1
+
+laset@Setta MINGW64 ~
+$ b=2
+
+laset@Setta MINGW64 ~
+$ [$a -1t $b]
+bash: [1: command not found
+
+laset@Setta MINGW64 ~
+$ [$a -lt %b]
+bash: [1: command not found
+
+laset@Setta MINGW64 ~
+$ [ $a -lt $b ]
+
+laset@Setta MINGW64 ~
+$ echo $?
+0
+
+laset@Setta MINGW64 ~
+$ [ $a - gt $b }
+bash: [: missing `]'
+
+laset@Setta MINGW64 ~
+$ [ $a - gt $b ]
+bash: [: too many arguments
+
+laset@Setta MINGW64 ~
+$ [ $a - gt $b ]
+bash: [: too many arguments
+
+laset@Setta MINGW64 ~
+$ a=1
+
+laset@Setta MINGW64 ~
+$ b=2
+
+laset@Setta MINGW64 ~
+$ [$a - lt $b]
+bash: [1: command not found
+
+laset@Setta MINGW64 ~
+$ [$a - 1t $b]
+bash: [1: command not found
+
+laset@Setta MINGW64 ~
+$ [ $a - 1t $b ]
+bash: [: too many arguments
+
+laset@Setta MINGW64 ~
+$ [ $a - lt $b ]
+bash: [: too many arguments
+
+laset@Setta MINGW64 ~
+$ a=1
+
+laset@Setta MINGW64 ~
+$ b=2
+
+laset@Setta MINGW64 ~
+$ [ $a -lt $b ]
+
+laset@Setta MINGW64 ~
+$ echo $?
+0
+
+laset@Setta MINGW64 ~
+$ [ $a -eq $b ]
+
+laset@Setta MINGW64 ~
+$ echo $?
+1
+
+laset@Setta MINGW64 ~
+$ [ $a -ne $b ]
+
+laset@Setta MINGW64 ~
+$ echo $?
+0
+
+laset@Setta MINGW64 ~
+$ [ "apples" = "oranges" ]
+
+laset@Setta MINGW64 ~
+$ echo $?
+1
+
+laset@Setta MINGW64 ~
+$ str1="apples"
+
+laset@Setta MINGW64 ~
+$ str2="oranges"
+
+laset@Setta MINGW64 ~
+$ [ $str1 = $str2 ]
+
+laset@Setta MINGW64 ~
+$ echo $?
+1
+
+laset@Setta MINGW64 ~
+$ vi comparison.sh
+
+laset@Setta MINGW64 ~
+$ chmod +x compare.sh
+chmod: cannot access 'compare.sh': No such file or directory
+
+laset@Setta MINGW64 ~
+$ chmod +x comparision.sh
+chmod: cannot access 'comparision.sh': No such file or directory
+
+laset@Setta MINGW64 ~
+$ chmod +x comparison.sh
+
+laset@Setta MINGW64 ~
+$ ./comparison.sh
+Are UNIX and GNU strings equal?
+1
+Is 100 equal to 100 ?
+0
+
+laset@Setta MINGW64 ~
+$ vin if/then.else
+bash: vin: command not found
+
+laset@Setta MINGW64 ~
+$ vi if/then.else
+
+[No write since last change]
+/usr/bin/bash: w: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+[No write since last change]
+/usr/bin/bash: w: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+[No write since last change]
+/usr/bin/bash: w: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+
+laset@Setta MINGW64 ~
+$ vi if_else.sh
+
+laset@Setta MINGW64 ~
+$ chmod +x if_else.sh
+
+laset@Setta MINGW64 ~
+$ ./if_else.sh
+100 is less than 200!
+
+laset@Setta MINGW64 ~
+$ vi if_else.sh
+
+laset@Setta MINGW64 ~
+$ ./if_else.sh
+
+laset@Setta MINGW64 ~
+$ vin if_else.sh
+bash: vin: command not found
+
+laset@Setta MINGW64 ~
+$ vi if_else.sh
+
+laset@Setta MINGW64 ~
+$ ./if_else.sh
+400 is greater than 200!
+
+laset@Setta MINGW64 ~
+$ vi if_else.sh
+
+laset@Setta MINGW64 ~
+$ ./if_else.sh
+800 is greater than 200!
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+./backup.sh: line 21: fuction: command not found
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+wc: unknown option -- 1
+Try 'wc --help' for more information.
+./backup.sh: line 23: syntax error near unexpected token `}'
+./backup.sh: line 23: `}'
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+./backup.sh: line 21: fuction: command not found
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+wc: unknown option -- 1
+Try 'wc --help' for more information.
+./backup.sh: line 23: syntax error near unexpected token `}'
+./backup.sh: line 23: `}'
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+find: ‘/home/laset’: No such file or directory
+find: ‘/home/laset’: No such file or directory
+wc: unknown option -- 1
+Try 'wc --help' for more information.
+Files to be included: 0
+Directories to be included: 0
+Files archived:
+Directories archived: 0
+./backup.sh: line 39: [: 0: unary operator expected
+Backup of /home/laset failed!
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+find: ‘/home/laset’: No such file or directory
+find: ‘/home/laset’: No such file or directory
+Files to be included: 0
+Directories to be included: 0
+Files archived: 0
+Directories archived: 0
+Backup of /home/laset completed!
+Details about the output backup file:
+-rw-r--r-- 1 laset 197609 45 Oct  3 18:18 /tmp/laset_home_2020-10-03_181828.tar.gz
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+wc: unknown option -- 1
+Try 'wc --help' for more information.
+find: ‘/home/laset’: No such file or directory
+wc: unknown option -- 1
+Try 'wc --help' for more information.
+find: ‘/home/laset’: No such file or directory
+wc: unknown option -- 1
+Try 'wc --help' for more information.
+wc: unknown option -- 1
+Try 'wc --help' for more information.
+Files to be included:
+Directories to be included:
+Files archived:
+Directories archived:
+Backup of /home/laset completed!
+Details about the output backup file:
+-rw-r--r-- 1 laset 197609 45 Oct  3 18:23 /tmp/laset_home_2020-10-03_182328.tar.gz
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+find: ‘/home/laset’: No such file or directory
+find: ‘/home/laset’: No such file or directory
+Files to be included: 0
+Directories to be included: 0
+Files archived: 0
+Directories archived: 0
+Backup of /home/laset completed!
+Details about the output backup file:
+-rw-r--r-- 1 laset 197609 45 Oct  3 18:24 /tmp/laset_home_2020-10-03_182406.tar.gz
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+find: ‘./AppData/Local/Microsoft/Windows/INetCache/Low/Content.IE5’: Permission denied
+
+
+
+find: ‘./AppData/Local/Microsoft/Windows/INetCache/Low/Content.IE5’: Permission denied
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+tar: option requires an argument -- 'f'
+Try 'tar --help' or 'tar --usage' for more information.
+Files to be included: 31745
+Directories to be included: 5506
+Files archived: 0
+Directories archived: 0
+Backup of /home/laset failed!
+
+laset@Setta MINGW64 ~
+$
+
+laset@Setta MINGW64 ~
+$
+
+laset@Setta MINGW64 ~
+$
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+find: ‘/home/laset’: No such file or directory
+find: ‘/home/laset’: No such file or directory
+Files to be included: 0
+Directories to be included: 0
+Files archived: 0
+Directories archived: 0
+Backup of /home/laset completed!
+Details about the output backup file:
+-rw-r--r-- 1 laset 197609 45 Oct  3 19:03 /tmp/laset_home_2020-10-03_190315.tar.gz
+
+laset@Setta MINGW64 ~
+$ which bash > param.sh
+
+laset@Setta MINGW64 ~
+$ vi param.sh
+
+laset@Setta MINGW64 ~
+$ chmod +x param.sh
+
+laset@Setta MINGW64 ~
+$ ./param.sh 1 2 3 4
+1 2 4
+4
+1 2 3 4
+
+laset@Setta MINGW64 ~
+$ ./param.sh hello bash scripting world
+hello bash world
+4
+hello bash scripting world
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+find: ‘/home/laset’: No such file or directory
+find: ‘/home/laset’: No such file or directory
+Files to be included: 0
+Directories to be included: 0
+Files archived: 0
+Directories archived: 0
+Backup of /home/laset completed!
+Details about the output backup file:
+-rw-r--r-- 1 laset 197609 45 Oct  3 19:10 /tmp/laset_home_2020-10-03_191041.tar.gz
+
+laset@Setta MINGW64 ~
+$ for i in 1 2 3; do echo $i; done
+1
+2
+3
+
+laset@Setta MINGW64 ~
+$ cat while.sh
+cat: while.sh: No such file or directory
+
+laset@Setta MINGW64 ~
+$ vi while.sh
+
+laset@Setta MINGW64 ~
+$ cat while.sh
+#!/bin/bash
+
+counter=0
+while [ $counter -lt 3 ]; do
+        let counter+=1
+        echo $counter
+done
+
+laset@Setta MINGW64 ~
+$ ./while.sh
+1
+2
+3
+
+laset@Setta MINGW64 ~
+$ vi while.sh
+
+laset@Setta MINGW64 ~
+$ ./while.sh
+3
+
+laset@Setta MINGW64 ~
+$ vi until.sh
+
+laset@Setta MINGW64 ~
+$ cat until.sh
+#!/bin/bash
+
+counter=6
+until [ $counter -lt 3 ]; do
+        let counter-=1
+        echo $counter
+done
+
+laset@Setta MINGW64 ~
+$ ./until.sh
+5
+4
+3
+2
+
+laset@Setta MINGW64 ~
+$ vi until.sh
+
+laset@Setta MINGW64 ~
+$ ./until.sh
+3
+2
+
+laset@Setta MINGW64 ~
+$ vi backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh
+
+laset@Setta MINGW64 ~
+$ ./backup.sh laset setta
+Requested laset user home directory doesn't exist.
+
+laset@Setta MINGW64 ~
+$ ./backup.sh laset&setta
+[1] 1351
+bash: setta: command not found
+Requested laset user home directory doesn't exist.
+[1]+  Exit 1                  ./backup.sh laset
+
+laset@Setta MINGW64 ~
+$ echo "pro02" >> READ.md
+
+laset@Setta MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/laset/.git/
+
+laset@Setta MINGW64 ~ (master)
+$ git remote add orgin https://github.com/setta9/Pro002.git
+
+laset@Setta MINGW64 ~ (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'origin'
+
+laset@Setta MINGW64 ~ (master)
+$
