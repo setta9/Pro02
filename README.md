@@ -20,3 +20,4 @@ area. Working in my backup.sh I would get the information coded but for some rea
 in the until loop part I could not get the files and directories to pull out the correct numbers. I tried to go back and re look at the code to ensure 
 I typed everything correctly and still could not find my mistake. I did use the vi function and I got the grasp of the function it was confusing at first.
 But after working through the problems repetition came in and I was able to work entirely through vi.
+Shared my link with Jakob at 8:46 p.m. October 4,2020 and shared with Andy at 8:44 p.m..
