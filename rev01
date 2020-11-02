@@ -1,2 +1,28 @@
 In this file I will be reviewing My first review will be over https://github.com/smileyplace/Project2..
-Over the files titled 
+Over the files titled read.me, backup.sh, if-else block, until.sh, and while block files. In Andy's read.md file I saw a lot of valuable information and very detailed
+information. I like the fact that he worked through vi even though through nano would have been easier to follow and process throught the instructions you provided us with.
+Every file uploaded was extremely detailed to where I could read the following textand be able to process the information in my own interpretation. Being able to provide 
+detailed information over a project ensures the person working on the project has a good understanding of what they are working on and reading Andy's read.md file that is
+what I though of. I would add that some files were detailed a bit more then others so maybe just to make sure one paragraph does not look so much longer then the other. 
+In his backup.sh file the coded was correct and I saw where the code was not completed and as Jakob said the purpose of this file is to back up the information hence the
+name of the file. To add to his point I will add the formating in his code has good spacing which makes reading the file easier. What I find interesting in this file is seeing
+our java 2 code lab assignments being slightly referred in this file. 
+Next file is if-else.sh the purpose of this file was to initialize variables num_a and num_b and to make sure the if-else code can function correctly with no mistakes.
+Interesting feature would be to add another variable to be able to make this if-else created by someone else to add your own spin to this if-else and still having the file
+work correctly.
+In the until.sh file the purpose would be to continue doing this function until the system is told other wise hence the name until loop which infers this block while be 
+running until the condition becomes true. What I found interesting was adding the money sign in and the -lt to run this until loop.
+Last file would be the while.sh file to provide feedback on. In this code the while will keep going as long as the file is correct not until the code cannot be excuted then 
+the while loop will stop being executed. What caught my attention will doing this assignment was how the echo was added as well as the let function to and the amount of special
+characters this file contains. 
+Next up reviewing will be Jakobs link is provided here, https://github.com/Jakebro210/Project2.
+In Jakobs read.md file was short and briefly detailed the only information in this file is the backup.sh how he could not get to fully function and discuess how he tried to fix
+the error he encountered. Which I like the way his read.md file is straight and to the point and emphahizes on what he needed help on.
+Next is his backup.sh file was correctly coded format wise although I did not see where his errors were everything looked accurately to me. What I found interesting would be the 
+coded within this file such as function and implying a echo function as well. In order to backup correctly. 
+In the if-else file the purpose was to be able to code a proper if-else statement in the gitbash. What I found interesting was " if [ $num_a -lt $num_b ]; then" part of the code
+at first I did not fully understand this concept because I was not the confortable with the -lt and the then part. 
+In the until file is a code word that continues to run until the block because false and is no longer able to function anymore. What I found interesting was "let counter-=1"
+instead of setting to an int variable counter was set with the word let. 
+Lastly the while.sh file is a simple while loop with a do after the while insead of the do being first which is a bit odd since in java 1 the professor teaches a do-while not 
+a while-do
